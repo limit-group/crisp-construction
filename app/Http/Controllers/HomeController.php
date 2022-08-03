@@ -10,20 +10,33 @@ class HomeController extends Controller
   
     public function index()
     {
+        return view('index');
+    }
+
+    //About Page
+    public function about(){
+        return view('about');
+    }
+    //Privacy Policy Page
+    public function privacy(){
+        return view('privacy');
+    }
+    //Company Services Page
+    public function services(){
+        return view('services');
+    }
+    //Projects Page
+    public function projects(){
+        return view('projects');
+    }
+    //Blog Articles Page
+    public function blogs(){
+        return view('blogs');
+    }
+    //Contact Page
+    public function contact(){
         return view('contact');
     }
-
-    //sending messages
-    public function sendMessage(){
-
-    }
-    //fetching blog
-    public function getBlog(){
-
-    }
-    //getting portfolio
-    public function getPortfolio(){
-
-    }
+    
 
 }
