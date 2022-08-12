@@ -27,11 +27,11 @@ class HomeController extends Controller
     }
     //Projects Page
     public function projects(){
-        return view('projects');
+        return view('project.index');
     }
     //Blog Articles Page
     public function blogs(){
-        return view('blogs');
+        return view('blog.index');
     }
     //Contact Page
     public function contact(){
